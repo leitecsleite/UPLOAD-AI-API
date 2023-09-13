@@ -22,3 +22,30 @@ Uma API para o projeto **UPLOAD.AI** que utiliza tecnologias modernas para geren
    ```bash
    git clone https://github.com/seu-usuario/upload-ai-api.git
    cd upload-ai-api
+
+Execute as migrações do Prisma para criar as tabelas no banco de dados SQLite:
+
+```
+npx prisma migrate dev
+```
+
+Inicie o servidor de desenvolvimento:
+
+```
+npm run dev
+```
+### Configuração do Banco de Dados
+
+Certifique-se de configurar a conexão com o banco de dados SQLite no arquivo .env. Você pode copiar o arquivo .env.example e ajustar as configurações conforme necessário.
+
+```
+DATABASE_URL="file:./dev.db"
+```
+
+### Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests para melhorar este projeto.
+
+### Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.
