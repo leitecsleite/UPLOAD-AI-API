@@ -1,0 +1,24 @@
+# UPLOAD-AI-API
+
+Uma API para o projeto **UPLOAD.AI** que utiliza tecnologias modernas para gerenciar uploads e processamento de vídeos com suporte a transcrição de áudio.
+
+## Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Prisma](https://prisma.io/)
+- [SQLite](https://www.sqlite.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Pré-requisitos
+
+- Node.js e npm instalados em sua máquina.
+- Um ambiente de desenvolvimento configurado para TypeScript.
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/upload-ai-api.git
+   cd upload-ai-api
