@@ -5,7 +5,7 @@ Uma API para o projeto **UPLOAD.AI** que utiliza tecnologias modernas para geren
 ## Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
+- [Fastify](https://fastify.com/)
 - [Prisma](https://prisma.io/)
 - [SQLite](https://www.sqlite.org/)
 - [TypeScript](https://www.typescriptlang.org/)
