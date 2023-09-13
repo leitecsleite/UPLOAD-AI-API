@@ -19,17 +19,18 @@ Uma API para o projeto **UPLOAD.AI** que utiliza tecnologias modernas para geren
 
 1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/seu-usuario/upload-ai-api.git
-   cd upload-ai-api
+```bash
+git clone https://github.com/seu-usuario/upload-ai-api.git
+cd upload-ai-api
+```
 
-Execute as migrações do Prisma para criar as tabelas no banco de dados SQLite:
+2. Execute as migrações do Prisma para criar as tabelas no banco de dados SQLite:
 
 ```
 npx prisma migrate dev
 ```
 
-Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
 
 ```
 npm run dev
